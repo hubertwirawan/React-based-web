@@ -1,0 +1,12 @@
+div.addphoto {
+    width:200px; /*width of your image*/
+    height:200px; /*height of your image*/
+    background-image:url('/images/img-2.jpg');
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+ }
+div.text1 {
+    font-size: 32px;
+
+
+}
