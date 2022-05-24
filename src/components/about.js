@@ -89,7 +89,7 @@ export default function about() {
             >
               <Grid item xs={12} container>
                 <Grid item xs={12}>
-                    <div className="text1">                About us </div>
+                  <div className="text1"> About us </div>
                 </Grid>
               </Grid>
 
@@ -99,20 +99,14 @@ export default function about() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor.
-                  , quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor.
-                  , quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor.
+                  irure dolor. , quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor. ,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat. Duis aute irure dolor.
                 </Grid>
                 <Grid item xs={1} />
-                <Grid
-                  item
-                  xs={4}
-                >
-                    <div className="addphoto"></div>
+                <Grid item xs={4}>
+                  <div className="addphoto"></div>
                   {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -121,22 +115,21 @@ export default function about() {
                 </Grid>
               </Grid>
             </Grid>
-
             <div>&nbsp;</div>
             <div>&nbsp;</div>
             <div>&nbsp;</div>
-            <div class="container py-5">
-              <h2 class="h3 font-weight-bold">Some demo content</h2>
-              <div class="row">
-                <div class="col-lg-10 mb-4">
-                  <p class="font-italic text-muted">
+            <div className="container py-5">
+              <h2 className="h3 font-weight-bold">Some demo content</h2>
+              <div className="row">
+                <div className="col-lg-10 mb-4">
+                  <p className="font-italic text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor.
                   </p>
-                  <p class="font-italic text-muted">
+                  <p className="font-italic text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -144,17 +137,17 @@ export default function about() {
                     Duis aute irure dolor.
                   </p>
                 </div>
-                <div class="col-lg-8">
-                  <p class="font-italic text-muted">
+                <div className="col-lg-8">
+                  <p className="font-italic text-muted">
                     Lorem ipsum dolor sit amet, consectetur{" "}
-                    <strong class="font-weight-bold text-dark">
+                    <strong className="font-weight-bold text-dark">
                       adipisicing elit, sed{" "}
                     </strong>
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in{" "}
-                    <strong class="font-weight-bold text-dark">
+                    <strong className="font-weight-bold text-dark">
                       reprehenderit in voluptate{" "}
                     </strong>
                     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
@@ -164,38 +157,6 @@ export default function about() {
                 </div>
               </div>
             </div>
-
-            {/* <Grid container spacing={4}>
-            <Grid item xs={6} 
->
-                <TextField>xs=6</TextField>
-            </Grid>
-            <Grid item xs={6}        
-            >
-                <Item>xs=6</Item>
-            </Grid>
-            </Grid>
-            
- */}
-
-            {/* <Box
-            sx={{
-              marginTop: 0,
-              pl : 0,
-              display: 'flex',
-              flexDirection: 'column',
-            //   alignItems: 'center',
-              width: 400,
-                height: 400,
-                backgroundColor: 'primary.dark',
-                '&:hover': {
-                backgroundColor: 'primary.main',
-                opacity: [0.9, 0.8, 0.7],
-                },
-              
-            }}
-          >
-          </Box> */}
           </Container>
         </div>
       </div>

@@ -25,7 +25,7 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
@@ -38,20 +38,13 @@ function Footer() {
 
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'><i class="fas fa-address-book"></i> +828 32232</Link>
-            <Link to='/'><i class="fas fa-envelope"></i>  aaaaa@gmail.com</Link>
+            <Link to='/'><i className="fas fa-address-book"></i> +828 32232</Link>
+            <Link to='/'><i className="fas fa-envelope"></i>  aaaaa@gmail.com</Link>
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          {/* <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div> */}
           <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
@@ -62,54 +55,54 @@ function Footer() {
         </div>
       </div>
       <section className='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               CMP
-              <i class='fab fa-cloudsmith' />
+              <i className='fab fa-cloudsmith' />
             </Link>
           </div>
-          <small class='website-rights'>CMP © 2022</small>
-          <div class='social-icons'>
+          <small className='website-rights'>CMP © 2022</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
             </Link>
             <Link
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to='/'
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
+              className='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
+              <i className='fab fa-twitter' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i className='fab fa-linkedin' />
 
 
             </Link>

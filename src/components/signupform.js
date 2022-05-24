@@ -81,7 +81,7 @@ export default function signupform() {
               direction="column"
               justifyContent="flex-start"
             >
-              <Grid item xs={12} container spacing={false}>
+              <Grid item xs={12} container spacing={0}>
                 <Grid item xs={7}>
                   <div className="sendform">
                     <Box
@@ -96,7 +96,7 @@ export default function signupform() {
                     >
                       <Typography
                         component="h1"
-                        centered
+                        className="formheading"
                         variant="h5"
                         color="rgb(216, 216, 216)"
                         sx={{
